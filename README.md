@@ -14,6 +14,8 @@ Request GET to https://chrobinsoninterview.azurewebsites.net/{CODE} where {CODE}
 
 List of valid contry codes:  "CAN", "USA", "MEX", "BLZ", "GTM", "SLV", "HND", "NIC", "CRI", "PAN"
 
+When you input invalid code it will return 404
+
 Example:
 
 GET on https://chrobinsoninterview.azurewebsites.net/BLZ should return:
